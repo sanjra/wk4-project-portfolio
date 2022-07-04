@@ -15,3 +15,8 @@ h1 {
 h2 {
   color: #f55282;
 }
+
+p {
+  color: bisque;
+  font-size: 40px;
+}
