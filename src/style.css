@@ -80,5 +80,12 @@ p {
 }
 
 .project-description {
-  padding: 120px 50px;
+  padding: 130px 50px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
