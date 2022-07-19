@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #ffc8b2;
   --primary-color: #272142;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
@@ -112,10 +112,41 @@ p {
   padding: 130px 50px;
 }
 
+.logo {
+  max-height: 100px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav li:active a {
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
-    line-height: 1;
+    line-height: 80px;
   }
 
   h2 {
