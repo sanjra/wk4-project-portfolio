@@ -112,6 +112,10 @@ p {
   padding: 18px 46px;
 }
 
+.launch-button {
+  text-align: center;
+}
+
 .project-description {
   padding: 130px 50px;
 }
